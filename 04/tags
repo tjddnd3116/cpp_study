@@ -1,0 +1,12 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+main	4_4_1_1.cpp	/^int main(void)$/;"	f
+main	4_6_2.cpp	/^int main(void)$/;"	f
+main	sub_1.cpp	/^int main(void)$/;"	f
+main	sub_2.cpp	/^int main(void)$/;"	f
+main	sub_3.cpp	/^int main(void)$/;"	f
+my_square	sub_3.cpp	/^int my_square(int num)$/;"	f
