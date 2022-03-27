@@ -13,13 +13,20 @@ void cal(const vector<double>& nums, struct result &ans)
 {
 	double dbl_min = numeric_limits<double>::max();
 	double dbl_max = numeric_limits<double>::min();
-	for (double x:nums)
+	double avg;
+	double mid;
+	for (double x : nums)
 	{
-		if (x > max)
-			max = x;
-		if (x < min)
-			min = x;
+		if (x > dbl_max)
+			dbl_max = x;
+		if (x < dbl_min)
+			dbl_min = x;
+		avg += x;
 	}
+	ans.max = dbl_max;
+	ans.min = dbl_min;
+	ans.avg = avg / nums.size();
+	ans.mid = nums[nums.size() / 2];
 }
 int main(void)
 {

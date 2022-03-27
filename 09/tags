@@ -1,0 +1,49 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Chrono	Chrono.cpp	/^namespace Chrono {$/;"	n	file:
+Chrono	Chrono.h	/^namespace Chrono {$/;"	n
+Date	Chrono.cpp	/^	Date::Date()$/;"	f	class:Chrono::Date
+Date	Chrono.cpp	/^	Date::Date(int yy, Month mm, int dd)$/;"	f	class:Chrono::Date
+Date	Chrono.h	/^	class Date {$/;"	c	namespace:Chrono
+Day	Chrono.cpp	/^	enum class Day {$/;"	c	namespace:Chrono	file:
+Invalid	Chrono.h	/^			class Invalid { };$/;"	c	class:Chrono::Date
+Month	Chrono.h	/^	enum class Month {$/;"	c	namespace:Chrono
+add_day	Chrono.cpp	/^	void Date:: add_day(int n)$/;"	f	class:Chrono::Date
+add_month	Chrono.cpp	/^	void Date::add_month(int n)$/;"	f	class:Chrono::Date
+add_year	Chrono.cpp	/^	void Date::add_year(int n)$/;"	f	class:Chrono::Date
+apr	Chrono.h	/^		jan=1, feb, mar, apr, may, jun, jul, aug, sep, oct ,nov, dec$/;"	m	class:Chrono::Month
+aug	Chrono.h	/^		jan=1, feb, mar, apr, may, jun, jul, aug, sep, oct ,nov, dec$/;"	m	class:Chrono::Month
+d	Chrono.h	/^			int d;$/;"	m	class:Chrono::Date
+day	Chrono.h	/^			int day() const {	return d;	}$/;"	f	class:Chrono::Date
+default_date	Chrono.cpp	/^	const Date& default_date()$/;"	f	namespace:Chrono
+feb	Chrono.h	/^		jan=1, feb, mar, apr, may, jun, jul, aug, sep, oct ,nov, dec$/;"	m	class:Chrono::Month
+friday	Chrono.cpp	/^		sunday, monday, tuesday, wednesday, thursday, friday, saturday$/;"	m	class:Chrono::Day	file:
+is_date	Chrono.cpp	/^	bool is_date(int y, Month m, int d)$/;"	f	namespace:Chrono
+jan	Chrono.h	/^		jan=1, feb, mar, apr, may, jun, jul, aug, sep, oct ,nov, dec$/;"	m	class:Chrono::Month
+jul	Chrono.h	/^		jan=1, feb, mar, apr, may, jun, jul, aug, sep, oct ,nov, dec$/;"	m	class:Chrono::Month
+jun	Chrono.h	/^		jan=1, feb, mar, apr, may, jun, jul, aug, sep, oct ,nov, dec$/;"	m	class:Chrono::Month
+leapyear	Chrono.cpp	/^	bool leapyear(int y)$/;"	f	namespace:Chrono
+m	Chrono.h	/^			Month m;$/;"	m	class:Chrono::Date
+main	main.cpp	/^int main(void)$/;"	f
+mar	Chrono.h	/^		jan=1, feb, mar, apr, may, jun, jul, aug, sep, oct ,nov, dec$/;"	m	class:Chrono::Month
+may	Chrono.h	/^		jan=1, feb, mar, apr, may, jun, jul, aug, sep, oct ,nov, dec$/;"	m	class:Chrono::Month
+monday	Chrono.cpp	/^		sunday, monday, tuesday, wednesday, thursday, friday, saturday$/;"	m	class:Chrono::Day	file:
+month	Chrono.h	/^			Month month() const { return m; }$/;"	f	class:Chrono::Date
+nov	Chrono.h	/^		jan=1, feb, mar, apr, may, jun, jul, aug, sep, oct ,nov, dec$/;"	m	class:Chrono::Month
+oct	Chrono.h	/^		jan=1, feb, mar, apr, may, jun, jul, aug, sep, oct ,nov, dec$/;"	m	class:Chrono::Month
+operator !=	Chrono.cpp	/^	bool operator!=(const Date& a, const Date& b)$/;"	f	namespace:Chrono
+operator <<	Chrono.cpp	/^	ostream& operator<< (ostream& os, const Date& d)$/;"	f	namespace:Chrono
+operator <<	Chrono.cpp	/^	ostream& operator<< (ostream& os, const Month& m)$/;"	f	namespace:Chrono
+operator ==	Chrono.cpp	/^	bool operator==(const Date& a, const Date& b)$/;"	f	namespace:Chrono
+operator >>	Chrono.cpp	/^	istream& operator>>(istream& is, Date& dd)$/;"	f	namespace:Chrono
+sep	Chrono.h	/^		jan=1, feb, mar, apr, may, jun, jul, aug, sep, oct ,nov, dec$/;"	m	class:Chrono::Month
+sunday	Chrono.cpp	/^		sunday, monday, tuesday, wednesday, thursday, friday, saturday$/;"	m	class:Chrono::Day	file:
+thursday	Chrono.cpp	/^		sunday, monday, tuesday, wednesday, thursday, friday, saturday$/;"	m	class:Chrono::Day	file:
+tuesday	Chrono.cpp	/^		sunday, monday, tuesday, wednesday, thursday, friday, saturday$/;"	m	class:Chrono::Day	file:
+wednesday	Chrono.cpp	/^		sunday, monday, tuesday, wednesday, thursday, friday, saturday$/;"	m	class:Chrono::Day	file:
+y	Chrono.h	/^			int y;$/;"	m	class:Chrono::Date
+year	Chrono.h	/^			int year() const { return y; }$/;"	f	class:Chrono::Date

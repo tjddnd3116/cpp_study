@@ -1,0 +1,218 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Apr	test.cpp	/^	Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec$/;"	m	class:Month	file:
+Aug	test.cpp	/^	Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec$/;"	m	class:Month	file:
+Book	09/prac_4.h	/^Book::Book(string isbn, string name, string auther, string copy_info)$/;"	f	class:Book
+Book	09/prac_4.h	/^class Book {$/;"	c
+Chrono	09/Chrono.cpp	/^namespace Chrono {$/;"	n	file:
+Chrono	09/Chrono.h	/^namespace Chrono {$/;"	n
+Date	09/Chrono.cpp	/^	Date::Date()$/;"	f	class:Chrono::Date
+Date	09/Chrono.cpp	/^	Date::Date(int yy, Month mm, int dd)$/;"	f	class:Chrono::Date
+Date	09/Chrono.h	/^	class Date {$/;"	c	namespace:Chrono
+Day	09/Chrono.cpp	/^	enum class Day {$/;"	c	namespace:Chrono	file:
+Exit	std_lib_facilities.h	/^	Exit() : runtime_error("Exit") {}$/;"	f	struct:Exit
+Exit	std_lib_facilities.h	/^struct Exit : runtime_error {$/;"	s
+Feb	test.cpp	/^	Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec$/;"	m	class:Month	file:
+H112	std_lib_facilities.h	/^#define H112 /;"	d
+Invalid	09/Chrono.h	/^			class Invalid { };$/;"	c	class:Chrono::Date
+Jan	test.cpp	/^	Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec$/;"	m	class:Month	file:
+Jul	test.cpp	/^	Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec$/;"	m	class:Month	file:
+Jun	test.cpp	/^	Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec$/;"	m	class:Month	file:
+Mar	test.cpp	/^	Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec$/;"	m	class:Month	file:
+May	test.cpp	/^	Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec$/;"	m	class:Month	file:
+Month	09/Chrono.h	/^	enum class Month {$/;"	c	namespace:Chrono
+Month	test.cpp	/^enum class Month {$/;"	c	file:
+Name_pairs	09/prac_2.cpp	/^Name_pairs::Name_pairs(int num)$/;"	f	class:Name_pairs
+Name_pairs	09/prac_2.cpp	/^class Name_pairs {$/;"	c	file:
+Nov	test.cpp	/^	Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec$/;"	m	class:Month	file:
+Oct	test.cpp	/^	Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec$/;"	m	class:Month	file:
+Range_error	std_lib_facilities.h	/^	Range_error(int i) :out_of_range("Range error: " + to_string(i)), index(i) { }$/;"	f	struct:Range_error
+Range_error	std_lib_facilities.h	/^struct Range_error : out_of_range {	\/\/ enhanced vector range error reporting$/;"	s
+Sep	test.cpp	/^	Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec$/;"	m	class:Month	file:
+String	std_lib_facilities.h	/^struct String : std::string {$/;"	s
+Unicode	std_lib_facilities.h	/^typedef long Unicode;$/;"	t
+Vector	std_lib_facilities.h	/^template< class T> struct Vector : public std::vector<T> {$/;"	s
+X	08/exer_3.cpp	/^namespace X$/;"	n	file:
+Y	08/exer_3.cpp	/^namespace Y$/;"	n	file:
+Z	08/exer_3.cpp	/^namespace Z$/;"	n	file:
+add_day	09/Chrono.cpp	/^	void Date:: add_day(int n)$/;"	f	class:Chrono::Date
+add_month	09/Chrono.cpp	/^	void Date::add_month(int n)$/;"	f	class:Chrono::Date
+add_year	09/Chrono.cpp	/^	void Date::add_year(int n)$/;"	f	class:Chrono::Date
+age	09/prac_2.cpp	/^		vector<double> age;$/;"	m	class:Name_pairs	file:
+apr	09/Chrono.h	/^		jan=1, feb, mar, apr, may, jun, jul, aug, sep, oct ,nov, dec$/;"	m	class:Chrono::Month
+as_bytes	std_lib_facilities.h	/^template<class T> char* as_bytes(T& i)	\/\/ needed for binary I\/O$/;"	f
+aug	09/Chrono.h	/^		jan=1, feb, mar, apr, may, jun, jul, aug, sep, oct ,nov, dec$/;"	m	class:Chrono::Month
+auther	09/prac_4.h	/^		string auther;$/;"	m	class:Book
+avg	08/prac_10.cpp	/^	double avg;$/;"	m	struct:result	file:
+cal	08/prac_10.cpp	/^void cal(const vector<double>& nums, struct result &ans)$/;"	f
+check_isbn	09/prac_4.h	/^bool check_isbn(string isbn)$/;"	f
+copy_info	09/prac_4.h	/^		string copy_info;$/;"	m	class:Book
+d	09/Chrono.h	/^			int d;$/;"	m	class:Chrono::Date
+day	09/Chrono.h	/^			int day() const {	return d;	}$/;"	f	class:Chrono::Date
+default_date	09/Chrono.cpp	/^	const Date& default_date()$/;"	f	namespace:Chrono
+error	std_lib_facilities.h	/^inline void error(const string& s)$/;"	f
+error	std_lib_facilities.h	/^inline void error(const string& s, const string& s2)$/;"	f
+error	std_lib_facilities.h	/^inline void error(const string& s, int i)$/;"	f
+feb	09/Chrono.h	/^		jan=1, feb, mar, apr, may, jun, jul, aug, sep, oct ,nov, dec$/;"	m	class:Chrono::Month
+fibonacci	08/prac_3.cpp	/^void fibonacci(int x, int y, vector<int>& fibo, int n)$/;"	f
+find	std_lib_facilities.h	/^Iterator<C> find(C& c, Val v)$/;"	f
+find_if	std_lib_facilities.h	/^Iterator<C> find_if(C& c, Pred p)$/;"	f
+first_word	08/prac_12.cpp	/^	string first_word;$/;"	m	struct:info	file:
+foo	08/my.cpp	/^int foo = 0;$/;"	v
+friday	09/Chrono.cpp	/^		sunday, monday, tuesday, wednesday, thursday, friday, saturday$/;"	m	class:Chrono::Day	file:
+get_age	09/prac_2.cpp	/^		vector<double> get_age() const {return age;}$/;"	f	class:Name_pairs
+get_auther	09/prac_4.h	/^		string get_auther() const { return auther; }$/;"	f	class:Book
+get_book	09/prac_4.h	/^void Book::get_book()$/;"	f	class:Book
+get_copy_info	09/prac_4.h	/^		string get_copy_info() const { return copy_info; }$/;"	f	class:Book
+get_is_rent	09/prac_4.h	/^		bool	get_is_rent() const { return is_rent; }$/;"	f	class:Book
+get_isbn	09/prac_4.h	/^		string get_isbn() const { return isbn; }$/;"	f	class:Book
+get_name	09/prac_2.cpp	/^		vector<string> get_name() const {return name;}$/;"	f	class:Name_pairs
+get_name	09/prac_4.h	/^		string get_name() const { return name; }$/;"	f	class:Book
+get_rand	std_lib_facilities.h	/^inline default_random_engine& get_rand()$/;"	f
+hash	std_lib_facilities.h	/^	template<> struct hash<String>$/;"	s	namespace:std
+index	std_lib_facilities.h	/^	int index;$/;"	m	struct:Range_error
+info	08/prac_12.cpp	/^struct info {$/;"	s	file:
+is_date	09/Chrono.cpp	/^	bool is_date(int y, Month m, int d)$/;"	f	namespace:Chrono
+is_rent	09/prac_4.h	/^		bool is_rent;$/;"	m	class:Book
+isbn	09/prac_4.h	/^		string isbn;$/;"	m	class:Book
+jan	09/Chrono.h	/^		jan=1, feb, mar, apr, may, jun, jul, aug, sep, oct ,nov, dec$/;"	m	class:Chrono::Month
+jul	09/Chrono.h	/^		jan=1, feb, mar, apr, may, jun, jul, aug, sep, oct ,nov, dec$/;"	m	class:Chrono::Month
+jun	09/Chrono.h	/^		jan=1, feb, mar, apr, may, jun, jul, aug, sep, oct ,nov, dec$/;"	m	class:Chrono::Month
+keep_window_open	std_lib_facilities.h	/^inline void keep_window_open()$/;"	f
+keep_window_open	std_lib_facilities.h	/^inline void keep_window_open(string s)$/;"	f
+ktoc	05/prac_2.cpp	/^double ktoc(double k)$/;"	f
+last_word	08/prac_12.cpp	/^	string last_word;$/;"	m	struct:info	file:
+leapyear	09/Chrono.cpp	/^	bool leapyear(int y)$/;"	f	namespace:Chrono
+m	09/Chrono.h	/^			Month m;$/;"	m	class:Chrono::Date
+main	03/3_5_1.cpp	/^int main(void)$/;"	f
+main	03/3_6_1.cpp	/^int main(void)$/;"	f
+main	03/3_9_1.cpp	/^int main(void)$/;"	f
+main	03/3_9_2.cpp	/^int main(void)$/;"	f
+main	03/3_prac.cpp	/^int main(void)$/;"	f
+main	03/prac_10.cpp	/^int main(void)$/;"	f
+main	03/prac_11.cpp	/^int main(void)$/;"	f
+main	03/prac_2.cpp	/^int main(void)$/;"	f
+main	03/prac_3.cpp	/^int main(void)$/;"	f
+main	03/prac_4.cpp	/^int main(void)$/;"	f
+main	03/prac_5.cpp	/^int main(void)$/;"	f
+main	03/prac_6.cpp	/^int main(void)$/;"	f
+main	03/prac_7.cpp	/^int main(void)$/;"	f
+main	03/prac_8.cpp	/^int main(void)$/;"	f
+main	03/prac_9.cpp	/^int main(void)$/;"	f
+main	04/4_4_1_1.cpp	/^int main(void)$/;"	f
+main	04/4_6_2.cpp	/^int main(void)$/;"	f
+main	04/4_6_3.cpp	/^int main(void)$/;"	f
+main	04/4_6_4.cpp	/^int main(void)$/;"	f
+main	04/4_exer.cpp	/^int main(void)$/;"	f
+main	04/prac_3.cpp	/^int main(void)$/;"	f
+main	04/prac_4.cpp	/^int main(void)$/;"	f
+main	04/prac_5.cpp	/^int main(void)$/;"	f
+main	04/prac_6.cpp	/^int main(void)$/;"	f
+main	04/prac_7.cpp	/^int main(void)$/;"	f
+main	04/prac_8.cpp	/^int main(void)$/;"	f
+main	04/sub_1.cpp	/^int main(void)$/;"	f
+main	04/sub_2.cpp	/^int main(void)$/;"	f
+main	04/sub_3.cpp	/^int main(void)$/;"	f
+main	04/sub_4.cpp	/^int main(void)$/;"	f
+main	04/test.cpp	/^int main(void)$/;"	f
+main	05/prac_11.cpp	/^int main(void)$/;"	f
+main	05/prac_2.cpp	/^int main(void)$/;"	f
+main	05/prac_7.cpp	/^int main(void)$/;"	f
+main	05/prac_8.cpp	/^int main(void)$/;"	f
+main	08/exer_2.cpp	/^int main(void)$/;"	f
+main	08/exer_3.cpp	/^int main(void)$/;"	f
+main	08/prac_10.cpp	/^int main(void)$/;"	f
+main	08/prac_12.cpp	/^int main(void)$/;"	f
+main	08/prac_3.cpp	/^int main(void)$/;"	f
+main	08/prac_5.cpp	/^int main(void)$/;"	f
+main	08/prac_6.cpp	/^int main(void)$/;"	f
+main	08/prac_7.cpp	/^int main(void)$/;"	f
+main	08/prac_8.cpp	/^int main(void)$/;"	f
+main	08/prac_9.cpp	/^int main(void)$/;"	f
+main	08/use.cpp	/^int main(void)$/;"	f
+main	09/main.cpp	/^int main(void)$/;"	f
+main	09/prac_2.cpp	/^int main(void)$/;"	f
+main	09/prac_3.cpp	/^int main(void)$/;"	f
+main	test.cpp	/^int main(void)$/;"	f
+mar	09/Chrono.h	/^		jan=1, feb, mar, apr, may, jun, jul, aug, sep, oct ,nov, dec$/;"	m	class:Chrono::Month
+max	08/prac_10.cpp	/^	double max;$/;"	m	struct:result	file:
+max	std_lib_facilities.h	/^#undef max$/;"	d
+max_len	08/prac_12.cpp	/^	int max_len;$/;"	m	struct:info	file:
+maxv	08/prac_9.cpp	/^double maxv(const vector<double> num)$/;"	f
+may	09/Chrono.h	/^		jan=1, feb, mar, apr, may, jun, jul, aug, sep, oct ,nov, dec$/;"	m	class:Chrono::Month
+mid	08/prac_10.cpp	/^	double mid;$/;"	m	struct:result	file:
+min	08/prac_10.cpp	/^	double min;$/;"	m	struct:result	file:
+min	std_lib_facilities.h	/^#undef min$/;"	d
+min_len	08/prac_12.cpp	/^	int min_len;$/;"	m	struct:info	file:
+min_max_word	08/prac_12.cpp	/^void min_max_word(const vector<string>& words, struct info &info)$/;"	f
+monday	09/Chrono.cpp	/^		sunday, monday, tuesday, wednesday, thursday, friday, saturday$/;"	m	class:Chrono::Day	file:
+month	09/Chrono.h	/^			Month month() const { return m; }$/;"	f	class:Chrono::Date
+month_tbl	test.cpp	/^vector<string> month_tbl = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "sep", "Oct", "Nov", "Dec"};$/;"	v
+my_square	04/sub_3.cpp	/^int my_square(int num)$/;"	f
+name	09/prac_2.cpp	/^		vector<string> name;$/;"	m	class:Name_pairs	file:
+name	09/prac_4.h	/^		string name;$/;"	m	class:Book
+narrow_cast	std_lib_facilities.h	/^template<class R, class A> R narrow_cast(const A& a)$/;"	f
+nov	09/Chrono.h	/^		jan=1, feb, mar, apr, may, jun, jul, aug, sep, oct ,nov, dec$/;"	m	class:Chrono::Month
+num	09/prac_2.cpp	/^		int num;$/;"	m	class:Name_pairs	file:
+oct	09/Chrono.h	/^		jan=1, feb, mar, apr, may, jun, jul, aug, sep, oct ,nov, dec$/;"	m	class:Chrono::Month
+operator !=	09/Chrono.cpp	/^	bool operator!=(const Date& a, const Date& b)$/;"	f	namespace:Chrono
+operator ()	std_lib_facilities.h	/^		size_t operator()(const String& s) const$/;"	f	struct:std::hash
+operator ++	test.cpp	/^Month operator++(Month& m)$/;"	f
+operator <<	09/Chrono.cpp	/^	ostream& operator<< (ostream& os, const Date& d)$/;"	f	namespace:Chrono
+operator <<	09/Chrono.cpp	/^	ostream& operator<< (ostream& os, const Month& m)$/;"	f	namespace:Chrono
+operator <<	09/prac_2.cpp	/^ostream& operator<< (ostream& os, const Name_pairs& d)$/;"	f
+operator <<	test.cpp	/^ostream& operator<<(ostream& os, Month m)$/;"	f
+operator ==	09/Chrono.cpp	/^	bool operator==(const Date& a, const Date& b)$/;"	f	namespace:Chrono
+operator >>	09/Chrono.cpp	/^	istream& operator>>(istream& is, Date& dd)$/;"	f	namespace:Chrono
+operator []	std_lib_facilities.h	/^	T& operator[](unsigned int i) \/\/ rather than return at(i);$/;"	f	struct:Vector
+operator []	std_lib_facilities.h	/^	char& operator[](unsigned int i) \/\/ rather than return at(i);$/;"	f	struct:String
+operator []	std_lib_facilities.h	/^	const T& operator[](unsigned int i) const$/;"	f	struct:Vector
+operator []	std_lib_facilities.h	/^	const char& operator[](unsigned int i) const$/;"	f	struct:String
+print	08/exer_3.cpp	/^	void print()$/;"	f	namespace:X
+print	08/exer_3.cpp	/^	void print()$/;"	f	namespace:Y
+print	08/exer_3.cpp	/^	void print()$/;"	f	namespace:Z
+print	08/my.cpp	/^void print(int num)$/;"	f
+print	08/prac_3.cpp	/^void print(const vector<int>& v)$/;"	f
+print	08/prac_5.cpp	/^void	print(const vector<int>& num)$/;"	f
+print	08/prac_6.cpp	/^void	print(const vector<string>& alpha)$/;"	f
+print	09/prac_2.cpp	/^void Name_pairs::print()$/;"	f	class:Name_pairs
+print_foo	08/my.cpp	/^void print_foo()$/;"	f
+print_info	08/prac_12.cpp	/^void print_info(const struct info& info)$/;"	f
+randint	std_lib_facilities.h	/^inline int randint(int max) { return randint(0, max); }$/;"	f
+randint	std_lib_facilities.h	/^inline int randint(int min, int max) { return uniform_int_distribution<>{min, max}(get_rand()); }$/;"	f
+read_names	09/prac_2.cpp	/^void Name_pairs::read_names()$/;"	f	class:Name_pairs
+result	08/prac_10.cpp	/^struct result {$/;"	s	file:
+return_book	09/prac_4.h	/^void Book::return_book()$/;"	f	class:Book
+search_first_last_word	08/prac_12.cpp	/^void search_first_last_word(vector<string>& words, struct info& info)$/;"	f
+search_word	08/prac_12.cpp	/^void search_word(const vector<string>& words, string target_word, struct info &info)$/;"	f
+seed_randint	std_lib_facilities.h	/^inline void seed_randint(int s) { get_rand().seed(s); }$/;"	f
+sep	09/Chrono.h	/^		jan=1, feb, mar, apr, may, jun, jul, aug, sep, oct ,nov, dec$/;"	m	class:Chrono::Month
+simple_error	std_lib_facilities.h	/^inline void simple_error(string s)	\/\/ write ``error: s and exit program$/;"	f
+sort	std_lib_facilities.h	/^void sort(C& c)$/;"	f
+sort	std_lib_facilities.h	/^void sort(C& c, Pred p)$/;"	f
+sort_list	09/prac_2.cpp	/^void Name_pairs::sort_list()$/;"	f	class:Name_pairs
+std	std_lib_facilities.h	/^namespace std {$/;"	n
+sum	08/prac_8.cpp	/^double sum(const vector<double>& price, const vector<double>& weight)$/;"	f
+sunday	09/Chrono.cpp	/^		sunday, monday, tuesday, wednesday, thursday, friday, saturday$/;"	m	class:Chrono::Day	file:
+swap_a	08/prac_5.cpp	/^vector<int> swap_a(const vector<int>& num)$/;"	f
+swap_a	08/prac_6.cpp	/^vector<string> swap_a(const vector<string>& alpha)$/;"	f
+swap_b	08/prac_5.cpp	/^void swap_b(vector<int>& num)$/;"	f
+swap_b	08/prac_6.cpp	/^void swap_b(vector<string>& alpha)$/;"	f
+swap_cr	08/exer_2.cpp	/^void swap_cr(const int& a, const int& b)$/;"	f
+swap_r	08/exer_2.cpp	/^void swap_r(int &a, int &b)$/;"	f
+swap_v	08/exer_2.cpp	/^void swap_v(int a, int b)$/;"	f
+thursday	09/Chrono.cpp	/^		sunday, monday, tuesday, wednesday, thursday, friday, saturday$/;"	m	class:Chrono::Day	file:
+to_string	std_lib_facilities.h	/^template<class T> string to_string(const T& t)$/;"	f
+tuesday	09/Chrono.cpp	/^		sunday, monday, tuesday, wednesday, thursday, friday, saturday$/;"	m	class:Chrono::Day	file:
+var	08/exer_3.cpp	/^	int var;$/;"	m	namespace:X	file:
+var	08/exer_3.cpp	/^	int var;$/;"	m	namespace:Y	file:
+var	08/exer_3.cpp	/^	int var;$/;"	m	namespace:Z	file:
+vector	std_lib_facilities.h	/^#define vector /;"	d
+wednesday	09/Chrono.cpp	/^		sunday, monday, tuesday, wednesday, thursday, friday, saturday$/;"	m	class:Chrono::Day	file:
+word_cnt	08/prac_12.cpp	/^	vector<int> word_cnt;$/;"	m	struct:info	file:
+y	09/Chrono.h	/^			int y;$/;"	m	class:Chrono::Date
+year	09/Chrono.h	/^			int year() const { return y; }$/;"	f	class:Chrono::Date
