@@ -2,7 +2,7 @@
 
 int main(void)
 {
-	char ch[100];
+	char ch[20];
 
-	std::cout << sizeof(ch);
+	ch = new char [20];
 }

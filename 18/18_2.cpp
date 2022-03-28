@@ -16,7 +16,7 @@ class my_vector {
 		{
 			sz = lst.size();
 			elem = new double[sz];
-			copy(lst.begin(), lst.end(), elem);
+			copy(lst.begin(), jjklst.end(), elem);
 		}
 };
 
