@@ -49,14 +49,18 @@ aug	09/Chrono.h	/^		jan=1, feb, mar, apr, may, jun, jul, aug, sep, oct ,nov, dec
 auther	09/prac_4.h	/^		string auther;$/;"	m	class:Book
 avg	08/prac_10.cpp	/^	double avg;$/;"	m	struct:result	file:
 cal	08/prac_10.cpp	/^void cal(const vector<double>& nums, struct result &ans)$/;"	f
+cat_dot	18/prac_5.cpp	/^char *cat_dot(char *s1, char *s2, char *s3)$/;"	f
 check_isbn	09/prac_4.h	/^bool check_isbn(string isbn)$/;"	f
 copy_info	09/prac_4.h	/^		string copy_info;$/;"	m	class:Book
 d	09/Chrono.h	/^			int d;$/;"	m	class:Chrono::Date
 day	09/Chrono.h	/^			int day() const {	return d;	}$/;"	f	class:Chrono::Date
 default_date	09/Chrono.cpp	/^	const Date& default_date()$/;"	f	namespace:Chrono
+elem	18/18_2.cpp	/^		double *elem;$/;"	m	class:my_vector	file:
 error	std_lib_facilities.h	/^inline void error(const string& s)$/;"	f
 error	std_lib_facilities.h	/^inline void error(const string& s, const string& s2)$/;"	f
 error	std_lib_facilities.h	/^inline void error(const string& s, int i)$/;"	f
+f	18/exer_1.cpp	/^void	f(int *ga, int len)$/;"	f
+f	18/exer_2.cpp	/^void f(vector<int> a)$/;"	f
 feb	09/Chrono.h	/^		jan=1, feb, mar, apr, may, jun, jul, aug, sep, oct ,nov, dec$/;"	m	class:Chrono::Month
 fibonacci	08/prac_3.cpp	/^void fibonacci(int x, int y, vector<int>& fibo, int n)$/;"	f
 find	std_lib_facilities.h	/^Iterator<C> find(C& c, Val v)$/;"	f
@@ -64,6 +68,7 @@ find_if	std_lib_facilities.h	/^Iterator<C> find_if(C& c, Pred p)$/;"	f
 first_word	08/prac_12.cpp	/^	string first_word;$/;"	m	struct:info	file:
 foo	08/my.cpp	/^int foo = 0;$/;"	v
 friday	09/Chrono.cpp	/^		sunday, monday, tuesday, wednesday, thursday, friday, saturday$/;"	m	class:Chrono::Day	file:
+ga	18/exer_1.cpp	/^int ga[10] = {1, 2 ,4 ,8, 16, 32, 64, 128, 256, 512};$/;"	v
 get_age	09/prac_2.cpp	/^		vector<double> get_age() const {return age;}$/;"	f	class:Name_pairs
 get_auther	09/prac_4.h	/^		string get_auther() const { return auther; }$/;"	f	class:Book
 get_book	09/prac_4.h	/^void Book::get_book()$/;"	f	class:Book
@@ -73,10 +78,14 @@ get_isbn	09/prac_4.h	/^		string get_isbn() const { return isbn; }$/;"	f	class:Bo
 get_name	09/prac_2.cpp	/^		vector<string> get_name() const {return name;}$/;"	f	class:Name_pairs
 get_name	09/prac_4.h	/^		string get_name() const { return name; }$/;"	f	class:Book
 get_rand	std_lib_facilities.h	/^inline default_random_engine& get_rand()$/;"	f
+gv	18/exer_2.cpp	/^vector<int> gv = {1,2,4,8,16,32,64,128,256,512};$/;"	v
 hash	std_lib_facilities.h	/^	template<> struct hash<String>$/;"	s	namespace:std
 index	std_lib_facilities.h	/^	int index;$/;"	m	struct:Range_error
 info	08/prac_12.cpp	/^struct info {$/;"	s	file:
+init_array	17/exer_1.cpp	/^void init_array(int *a, int n, int start_num)$/;"	f
+init_vector	17/exer_1.cpp	/^void init_vector(vector<int> &a, int n, int start_num)$/;"	f
 is_date	09/Chrono.cpp	/^	bool is_date(int y, Month m, int d)$/;"	f	namespace:Chrono
+is_palindrome	18/prac_8.cpp	/^bool is_palindrome(const string& s)$/;"	f
 is_rent	09/prac_4.h	/^		bool is_rent;$/;"	m	class:Book
 isbn	09/prac_4.h	/^		string isbn;$/;"	m	class:Book
 jan	09/Chrono.h	/^		jan=1, feb, mar, apr, may, jun, jul, aug, sep, oct ,nov, dec$/;"	m	class:Chrono::Month
@@ -93,21 +102,35 @@ main	03/3_6_1.cpp	/^int main(void)$/;"	f
 main	03/3_9_1.cpp	/^int main(void)$/;"	f
 main	03/3_9_2.cpp	/^int main(void)$/;"	f
 main	03/3_prac.cpp	/^int main(void)$/;"	f
-main	03/prac_10.cpp	/^int main(void)$/;"	f
-main	03/prac_11.cpp	/^int main(void)$/;"	f
 main	03/prac_2.cpp	/^int main(void)$/;"	f
 main	03/prac_3.cpp	/^int main(void)$/;"	f
 main	03/prac_4.cpp	/^int main(void)$/;"	f
 main	03/prac_5.cpp	/^int main(void)$/;"	f
-main	03/prac_6.cpp	/^int main(void)$/;"	f
-main	03/prac_7.cpp	/^int main(void)$/;"	f
-main	03/prac_8.cpp	/^int main(void)$/;"	f
-main	03/prac_9.cpp	/^int main(void)$/;"	f
+main	03_new/challenge_3_3.cpp	/^int main(void)$/;"	f
+main	03_new/challenge_3_4.cpp	/^int main(void)$/;"	f
+main	03_new/challenge_3_5.cpp	/^int main(void)$/;"	f
+main	03_new/challenge_3_9.cpp	/^int main(void)$/;"	f
+main	03_new/exer_2.cpp	/^int main(void)$/;"	f
+main	03_new/exer_4.cpp	/^int main(void)$/;"	f
+main	03_new/exer_5.cpp	/^int main(void)$/;"	f
+main	03_new/prac_1.cpp	/^int main(void)$/;"	f
+main	03_new/prac_10.cpp	/^int main(void)$/;"	f
+main	03_new/prac_11.cpp	/^int main(void)$/;"	f
+main	03_new/prac_6.cpp	/^int main(void)$/;"	f
+main	03_new/prac_7.cpp	/^int main(void)$/;"	f
+main	03_new/prac_8.cpp	/^int main(void)$/;"	f
+main	03_new/prac_9.cpp	/^int main(void)$/;"	f
 main	04/4_4_1_1.cpp	/^int main(void)$/;"	f
 main	04/4_6_2.cpp	/^int main(void)$/;"	f
 main	04/4_6_3.cpp	/^int main(void)$/;"	f
 main	04/4_6_4.cpp	/^int main(void)$/;"	f
 main	04/4_exer.cpp	/^int main(void)$/;"	f
+main	04/prac_10.cpp	/^int main(void)$/;"	f
+main	04/prac_11.cpp	/^int main(void)$/;"	f
+main	04/prac_16.cpp	/^int main(void)$/;"	f
+main	04/prac_17.cpp	/^int main(void)$/;"	f
+main	04/prac_18.cpp	/^int main(void)$/;"	f
+main	04/prac_19.cpp	/^int main(void)$/;"	f
 main	04/prac_3.cpp	/^int main(void)$/;"	f
 main	04/prac_4.cpp	/^int main(void)$/;"	f
 main	04/prac_5.cpp	/^int main(void)$/;"	f
@@ -137,6 +160,18 @@ main	08/use.cpp	/^int main(void)$/;"	f
 main	09/main.cpp	/^int main(void)$/;"	f
 main	09/prac_2.cpp	/^int main(void)$/;"	f
 main	09/prac_3.cpp	/^int main(void)$/;"	f
+main	17/exer_1.cpp	/^int main(void)$/;"	f
+main	17/prac_1.cpp	/^int main(void)$/;"	f
+main	17/prac_2.cpp	/^int main(void)$/;"	f
+main	17/prac_3.cpp	/^int main(void)$/;"	f
+main	17/test.cpp	/^int main(void)$/;"	f
+main	18/18_2.cpp	/^int main(void)$/;"	f
+main	18/exer_1.cpp	/^int main(void)$/;"	f
+main	18/exer_2.cpp	/^int main(void)$/;"	f
+main	18/prac_5.cpp	/^int main(void)$/;"	f
+main	18/prac_8.cpp	/^int main(void)$/;"	f
+main	18/test.cpp	/^int main(void)$/;"	f
+main	19/test.cpp	/^int main(void)$/;"	f
 main	test.cpp	/^int main(void)$/;"	f
 mar	09/Chrono.h	/^		jan=1, feb, mar, apr, may, jun, jul, aug, sep, oct ,nov, dec$/;"	m	class:Chrono::Month
 max	08/prac_10.cpp	/^	double max;$/;"	m	struct:result	file:
@@ -153,6 +188,9 @@ monday	09/Chrono.cpp	/^		sunday, monday, tuesday, wednesday, thursday, friday, s
 month	09/Chrono.h	/^			Month month() const { return m; }$/;"	f	class:Chrono::Date
 month_tbl	test.cpp	/^vector<string> month_tbl = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "sep", "Oct", "Nov", "Dec"};$/;"	v
 my_square	04/sub_3.cpp	/^int my_square(int num)$/;"	f
+my_vector	18/18_2.cpp	/^		my_vector(initializer_list<double> lst)$/;"	f	class:my_vector
+my_vector	18/18_2.cpp	/^		my_vector(int s)$/;"	f	class:my_vector
+my_vector	18/18_2.cpp	/^class my_vector {$/;"	c	file:
 name	09/prac_2.cpp	/^		vector<string> name;$/;"	m	class:Name_pairs	file:
 name	09/prac_4.h	/^		string name;$/;"	m	class:Book
 narrow_cast	std_lib_facilities.h	/^template<class R, class A> R narrow_cast(const A& a)$/;"	f
@@ -180,8 +218,11 @@ print	08/prac_3.cpp	/^void print(const vector<int>& v)$/;"	f
 print	08/prac_5.cpp	/^void	print(const vector<int>& num)$/;"	f
 print	08/prac_6.cpp	/^void	print(const vector<string>& alpha)$/;"	f
 print	09/prac_2.cpp	/^void Name_pairs::print()$/;"	f	class:Name_pairs
+print_array	17/exer_1.cpp	/^ostream& print_array(ostream& os, int *a, int n)$/;"	f
+print_array10	17/exer_1.cpp	/^ostream& print_array10(ostream& os, int *a)$/;"	f
 print_foo	08/my.cpp	/^void print_foo()$/;"	f
 print_info	08/prac_12.cpp	/^void print_info(const struct info& info)$/;"	f
+print_vector	17/exer_1.cpp	/^ostream& print_vector(ostream&os, vector<int> &a)$/;"	f
 randint	std_lib_facilities.h	/^inline int randint(int max) { return randint(0, max); }$/;"	f
 randint	std_lib_facilities.h	/^inline int randint(int min, int max) { return uniform_int_distribution<>{min, max}(get_rand()); }$/;"	f
 read_names	09/prac_2.cpp	/^void Name_pairs::read_names()$/;"	f	class:Name_pairs
@@ -196,6 +237,8 @@ sort	std_lib_facilities.h	/^void sort(C& c)$/;"	f
 sort	std_lib_facilities.h	/^void sort(C& c, Pred p)$/;"	f
 sort_list	09/prac_2.cpp	/^void Name_pairs::sort_list()$/;"	f	class:Name_pairs
 std	std_lib_facilities.h	/^namespace std {$/;"	n
+strdup	17/prac_2.cpp	/^char *strdup(const char* s)$/;"	f
+strlen	18/prac_5.cpp	/^int strlen(char *s1)$/;"	f
 sum	08/prac_8.cpp	/^double sum(const vector<double>& price, const vector<double>& weight)$/;"	f
 sunday	09/Chrono.cpp	/^		sunday, monday, tuesday, wednesday, thursday, friday, saturday$/;"	m	class:Chrono::Day	file:
 swap_a	08/prac_5.cpp	/^vector<int> swap_a(const vector<int>& num)$/;"	f
@@ -205,7 +248,9 @@ swap_b	08/prac_6.cpp	/^void swap_b(vector<string>& alpha)$/;"	f
 swap_cr	08/exer_2.cpp	/^void swap_cr(const int& a, const int& b)$/;"	f
 swap_r	08/exer_2.cpp	/^void swap_r(int &a, int &b)$/;"	f
 swap_v	08/exer_2.cpp	/^void swap_v(int a, int b)$/;"	f
+sz	18/18_2.cpp	/^		int sz;$/;"	m	class:my_vector	file:
 thursday	09/Chrono.cpp	/^		sunday, monday, tuesday, wednesday, thursday, friday, saturday$/;"	m	class:Chrono::Day	file:
+to_lower	17/prac_2.cpp	/^void to_lower(char* s)$/;"	f
 to_string	std_lib_facilities.h	/^template<class T> string to_string(const T& t)$/;"	f
 tuesday	09/Chrono.cpp	/^		sunday, monday, tuesday, wednesday, thursday, friday, saturday$/;"	m	class:Chrono::Day	file:
 var	08/exer_3.cpp	/^	int var;$/;"	m	namespace:X	file:
