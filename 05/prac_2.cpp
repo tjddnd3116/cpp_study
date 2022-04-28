@@ -12,8 +12,8 @@ int main(void)
 {
 	double k = 0;
 	cin >> k;
-	 if (k < 0)
-	   error("wrong degree!\n");
+	if (k < 0)
+		error("wrong degree!\n");
 	double c = ktoc(k);
 	cout << c << '\n';
 }
